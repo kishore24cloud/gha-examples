@@ -4,8 +4,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      -name: building code
-       run: echo "this is my first step"
+      - name: Build step
+        run: echo "this is my first step"
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy stage
+        run: echo "deploy to dev"
   
   
   
