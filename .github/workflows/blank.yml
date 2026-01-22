@@ -1,0 +1,12 @@
+name: "sample"
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -name: building code
+       run: echo "this is my first step"
+  
+  
+  
+    
