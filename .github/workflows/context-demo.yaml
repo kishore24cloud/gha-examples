@@ -17,5 +17,5 @@ jobs:
 
       - name: Print environment variables
         run: printenv
-        # get latest commit id
+      - name: Print latest commit id
         run: echo "$GITHUB_SHA"
