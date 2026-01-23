@@ -1,4 +1,4 @@
-name: Outputs Demo
+name: step o/p Demo
 on: workflow_dispatch
 jobs:
   job1:
